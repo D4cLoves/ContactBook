@@ -1,0 +1,21 @@
+.icon {
+  width: 22px;
+  height: 22px;
+  transition: opacity 0.2s;
+}
+
+.light {
+  display: none;
+}
+
+.light[data-dark] {
+  display: none;
+}
+
+.dark {
+  display: none;
+}
+
+.dark[data-light] {
+  display: block;
+}
